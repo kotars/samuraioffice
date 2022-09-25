@@ -1,0 +1,6 @@
+[data-aos=flip-left] {
+    transform: perspective(2500px) rotateY(-100deg)
+}
+[data-aos=fade-up] {
+    transform: translate3d(0, 100px, 0)
+}

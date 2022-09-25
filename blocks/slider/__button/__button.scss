@@ -1,0 +1,21 @@
+.slider__button {
+    padding: 2.4rem 4.95rem 3rem 4.95rem;
+    @include font(600, 1.8rem, 140%);
+}
+
+@media (max-width:48em) {
+    .slider__button {
+        @include font(600, 3.2rem, 140%);
+        padding: 2rem 2.5rem 2.5rem 2.5rem;
+
+        z-index: 100;
+
+        &:first-letter {
+            text-transform: uppercase;
+        }
+
+        span {
+            display: none;
+        }
+    }
+}

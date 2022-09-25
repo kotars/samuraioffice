@@ -1,0 +1,24 @@
+.footer__text {
+    @include font(500, 1.7rem, 140%);
+    padding-left: 3rem;
+    color: #E7EAEF;;
+
+    &:hover{
+        text-decoration: underline;
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width:48em) {
+    .footer__text {
+        padding-left: 0rem;
+        @include font(500, 3.4rem, 140%);
+
+        &:not(:last-child) {
+            margin-bottom: 1.3rem;
+        }
+    }
+}

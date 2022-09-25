@@ -1,0 +1,12 @@
+.facts__item {
+    cursor: pointer;
+    padding: 2.6rem 3.1rem 2.1rem 2rem;
+
+    &:nth-child(1) .facts__question .facts__var .facts__number{
+        margin-right: 2rem;
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 2.5rem;
+    }
+}

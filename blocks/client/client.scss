@@ -1,0 +1,12 @@
+.client{
+    margin-top: 11rem;
+}
+
+@media (max-width:48em) {
+    .client{
+        margin-top: 13rem;
+        .container{
+            padding: 0;
+        }
+    }
+}

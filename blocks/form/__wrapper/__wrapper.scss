@@ -1,0 +1,15 @@
+.form__wrapper {
+    width: 180rem;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 13.6rem;
+    padding-bottom: 10.4rem;
+    z-index: -2;
+}
+
+@media (max-width:48em) {
+    .form__wrapper{
+        width: 100%;
+        margin: 0;
+    }
+}

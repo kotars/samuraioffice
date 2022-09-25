@@ -1,0 +1,10 @@
+.header-basket {
+  @include vercen;
+  flex-shrink: 0;
+}
+
+@media (max-width:48em) {
+  .header-basket {
+    position: relative;
+  }
+}

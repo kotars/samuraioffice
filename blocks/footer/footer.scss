@@ -1,0 +1,27 @@
+.footer {
+    padding-top: 6.6rem;
+    padding-bottom: 6.5rem;
+    & .container {
+        position: relative;
+        display: grid;
+        column-gap: 7rem;
+    }
+    z-index: 10000;
+}
+
+@media (max-width:48em) {
+    .footer {
+        padding-top: 8.2rem;
+        padding-bottom: 20rem;
+        // padding-left: 1.6rem;
+        padding-right: 5.1rem;
+
+        & .container {
+
+            display: flex;
+            flex-direction: column;
+            column-gap: 0rem;
+
+        }
+    }
+}

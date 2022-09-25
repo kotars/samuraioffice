@@ -1,0 +1,17 @@
+.facts__answer {
+    font-family: 'Inter';
+    @include font(400, 1.9rem, 140%);
+    display: none;
+    padding-bottom: .8rem;
+    padding-right: 6.7rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+@media (max-width:48em) {
+    .facts__answer {
+    @include font(400, 2.6rem, 124%);
+    padding-top: 2rem;
+    padding-right: 1rem;
+    }
+}

@@ -1,0 +1,16 @@
+.balloon {
+    font-family: 'Inter';
+    & h3 {
+        @include font(800, 1.4rem, 140%);
+        text-align: center;
+        
+    }
+    & p {
+        @include font(300, 1.4rem, 140%);
+        text-align: left;
+    }
+    & span {
+        text-align: left;
+        color: grey
+    }
+}

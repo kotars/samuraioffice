@@ -1,0 +1,6 @@
+.features__title {
+    @include font(900, 4.4rem, 120%);
+    font-family: 'Inter';
+    text-align: center;
+    padding-bottom: 1.4rem;
+}

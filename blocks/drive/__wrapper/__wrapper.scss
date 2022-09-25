@@ -1,0 +1,20 @@
+.drive__wrapper{
+    width: 180rem;
+    margin: auto;
+    padding-top: 4rem;
+    background: url('../img/drive/drive-background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width:48em){
+    .drive__wrapper{
+        width: 100%;
+        padding-top: 10rem;
+        background: none;
+        z-index: 100;
+          // margin-top: -5rem;
+    }
+    
+}

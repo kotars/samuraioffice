@@ -1,0 +1,96 @@
+.client__company {
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    & div:nth-child(1) {
+        width: 10.4rem;
+        height: 5rem;
+        margin-right: 7.5rem;
+    }
+
+    & div:nth-child(2) {
+        width: 14.5rem;
+        height: 9.7rem;
+        margin-right: 4.2rem;
+    }
+
+    & div:nth-child(3) {
+        width: 17rem;
+        height: 4rem;
+        margin-right: 3.5rem;
+    }
+
+    & div:nth-child(4) {
+        width: 15.1rem;
+        height: 6.3rem;
+        margin-right: 6rem;
+    }
+
+    & div:nth-child(5) {
+        width: 12.9rem;
+        height: 6.3rem;
+        margin-right: 6.7rem;
+    }
+
+    & div:nth-child(6) {
+        width: 13.2rem;
+        height: 2.2rem;
+    }
+}
+
+@media (max-width:48em) {
+    .client__company {
+        flex-wrap: wrap;
+        align-items:center;
+        margin-top: 3rem;
+
+        & div:nth-child(1) {
+            order: 1;
+            height: 7.4rem;
+            width: 50%;
+            margin-right: 0;
+        }
+
+        & div:nth-child(2) {
+            order: 5;
+            height: 15.4rem;
+            margin-top: -2.5rem;
+            width: 50%;
+            margin-right: 0;
+        }
+
+        & div:nth-child(3) {
+            order: 3;
+            margin-top: 1rem;
+            height: 7.2rem;
+            width: 50%;
+            margin-right: 0;
+        }
+
+        & div:nth-child(4) {
+            order: 4;
+            height: 13.4rem;
+            margin-top: 1rem;
+            width: 50%;
+            margin-right: 0;
+        }
+
+        & div:nth-child(5) {
+            order: 2;
+            height: 8.8rem;
+            width: 50%;
+            margin-right: 0;
+            margin-top: 1rem;
+        }
+
+        & div:nth-child(6) {
+            order: 6;
+            height: 3.8rem;
+            width: 50%;
+            margin-top: -4rem;
+            margin-right: 0;
+        }
+    }
+}

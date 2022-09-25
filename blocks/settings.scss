@@ -1,0 +1,39 @@
+.active {
+    display: flex;
+}
+
+.noscroll {
+    overflow: hidden !important;
+    height: 100% !important;
+
+    & .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+    }
+}
+
+.noscroll-modall {
+    overflow: hidden !important;
+    height: 100% !important;
+}
+
+.just-validate-error-label{
+    // width: inherit;
+    padding-top: .35rem;
+    font-size: 1.4rem;
+}
+
+@media (max-width:48em) {
+    .noscroll {    
+        & .header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+        }
+    }
+}

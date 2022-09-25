@@ -1,0 +1,6 @@
+@media (max-width:48em) {
+    .header__wrap{
+        @include maxWidth;
+        position: relative;
+    }
+  }

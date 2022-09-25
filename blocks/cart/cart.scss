@@ -1,0 +1,16 @@
+.cart{
+    position: relative;
+}
+
+@media (max-width:48em) {
+    .cart{
+        &:nth-child(7){
+            display: none;
+        }
+
+        &:last-child{
+            display: none;
+        }
+
+    }
+  }

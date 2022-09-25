@@ -1,0 +1,53 @@
+.features__point{
+    cursor: pointer;
+    position: absolute;
+    background: #7BEC6D;
+    border-radius: 50%;
+    width: 1.4rem;
+    height: 1.4rem;
+    border: .5rem solid rgba(171, 247, 161, 0.25);
+    box-shadow: 0 .4rem 1.2rem rgba(171, 247, 161, 0.35);
+    
+    &:nth-child(1){
+        top: 0%;
+        left: 26%
+    }
+    
+    &:nth-child(2){
+        top: 20%;
+        left: 11%;
+        background: #FFFFFF;
+        border: .5rem solid rgba(255, 255, 255, 0.25);
+        box-shadow: 0rem .4rem 1.2rem rgba(255, 255, 255, 0.35);
+    }
+    
+    &:nth-child(3){
+        top: 23%;
+        left: 30%
+    }
+    
+    &:nth-child(4){
+        top: 36%;
+        left: 39%
+    }
+    
+    &:nth-child(5){
+        top: 34%;
+        right: 19%
+    }
+    
+    &:nth-child(6){
+        top: 55%;
+        left: 59%
+    }
+    
+    &:nth-child(7){
+        top: 60%;
+        left: 49%
+    }
+    
+    &:nth-child(8){
+        top: 72%;
+        left: 1%
+    }
+}

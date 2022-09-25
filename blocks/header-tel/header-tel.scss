@@ -1,0 +1,11 @@
+.header-tel {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+@media (max-width:48em) {
+  .header-tel {
+    display: none;
+  }
+}

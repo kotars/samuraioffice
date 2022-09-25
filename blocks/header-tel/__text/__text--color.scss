@@ -1,0 +1,10 @@
+.header__mobile__text--color {
+    color: $color-text-black
+}
+
+@media (max-width:48em) {
+    .header__mobile__text--color {
+        text-decoration-line: underline;
+        color: #0074D4;
+    }
+}

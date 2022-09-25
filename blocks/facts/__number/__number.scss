@@ -1,0 +1,13 @@
+.facts__number {
+    font-family: 'Inter';
+    @include font(900, 3.8rem, 140%);
+    text-align: left;
+    margin-right: 1.4rem;
+    padding-left: 1.2rem;
+}
+
+@media (max-width:48em) {
+    .facts__number {
+        display: none;
+    }
+}

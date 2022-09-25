@@ -1,0 +1,9 @@
+.features__description {
+    @include font(400, 2.3rem, 160%);
+    text-align: center;
+    padding-bottom: 9rem;
+
+    strong{
+        @include font(600, 2.3rem, 160%);
+    }
+}

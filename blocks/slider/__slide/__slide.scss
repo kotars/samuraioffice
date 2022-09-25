@@ -1,0 +1,12 @@
+.slider__slide {
+    height: 70rem;
+    padding-top: 11.6rem;
+    padding-bottom: 13.1rem;
+}
+
+@media (max-width:48em) {
+    .slider__slide {
+        padding-top: 2.3rem;
+        padding-bottom: 1.7rem;
+    }
+}

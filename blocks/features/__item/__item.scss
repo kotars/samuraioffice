@@ -1,0 +1,18 @@
+.features__item{
+    width: 38.5rem;
+    height: 10.6rem;
+    padding-bottom: 2.8rem;
+    align-items: center;
+    &:nth-child(5) {
+        margin-right: -4rem;
+    }
+    &:nth-child(6) {
+        margin-right: -4rem;
+    }
+    &:nth-child(7) {
+        margin-right: -4rem;
+    }
+    &:nth-child(8) {
+        margin-right: -4rem;
+    }
+}

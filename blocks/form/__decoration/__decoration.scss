@@ -1,0 +1,13 @@
+.form__decoration{
+    width: 75rem;
+    height: 75rem;
+    position: absolute;
+    top: -20.6rem;
+    right: 19.3rem;
+    z-index: -1;
+}
+@media (max-width:48em) {
+    .form__decoration{
+        display: none;
+    }
+}

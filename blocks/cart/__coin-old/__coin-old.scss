@@ -1,0 +1,11 @@
+.cart__coin-old {
+    @include font(700, 2rem, 140%);
+    position: relative;
+}
+
+@media (max-width:48em) {
+    .cart__coin-old {
+        @include font(700, 3.4rem, 140%);
+        position: relative;
+    }
+}
